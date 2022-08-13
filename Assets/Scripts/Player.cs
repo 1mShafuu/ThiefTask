@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class WayToDoor : MonoBehaviour
+public class Player : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer _targetRenderer;
     [SerializeField] private Rigidbody2D _rigidbody2D;
