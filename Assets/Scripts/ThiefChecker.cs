@@ -6,8 +6,8 @@ using UnityEngine.Events;
 
 public class ThiefChecker : MonoBehaviour
 {
-    [SerializeField] public UnityEvent OnReached = new UnityEvent();
-    [SerializeField] public UnityEvent OnLose = new UnityEvent();
+    [SerializeField] private UnityEvent Reached = new UnityEvent();
+    [SerializeField] private UnityEvent Lost = new UnityEvent();
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
